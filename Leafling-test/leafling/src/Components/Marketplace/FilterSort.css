@@ -1,0 +1,23 @@
+.filter-sort {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+.filter-sort .sort,
+.filter-sort .filter {
+  display: flex;
+  align-items: center;
+}
+
+.filter-sort label {
+  margin-right: 8px;
+}
+
+.filter-sort select {
+  padding: 5px;
+}

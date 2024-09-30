@@ -1,0 +1,33 @@
+.product-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin: 16px;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    height: 150px;
+    width: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  .product-card .price {
+    font-weight: bold;
+  }
+  
+  .product-card button {
+    background-color: #8e44ad;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .product-card button:hover {
+    background-color: #bc46d1;
+  }
+  

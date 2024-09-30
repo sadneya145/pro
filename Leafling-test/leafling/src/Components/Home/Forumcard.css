@@ -1,0 +1,33 @@
+.forum-card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.forum-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.forum-info {
+    flex: 1;
+}
+
+.forum-info h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.forum-info p {
+    margin: 5px 0 0;
+    color: #555;
+}

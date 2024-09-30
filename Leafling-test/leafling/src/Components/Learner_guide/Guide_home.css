@@ -1,0 +1,197 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.home-1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.topbar-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: rgb(21, 61, 21);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.topbar-1 a {
+    font-family: Helvetica;
+    margin-left: 10px;
+    color: white;
+    font-size: 24px;
+}
+
+.icons-1 {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.icon-item {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.icon-item img {
+    display: block;
+    margin: 0 auto 5px;
+    height: 24px;
+    /* Adjusted size */
+    width: 24px;
+    /* Adjusted size */
+}
+
+.icon-item a {
+    display: block;
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+.icon-item img:hover {
+    opacity: 0.7;
+    /* Slightly adjusted for better visibility */
+    transition: 0.3s ease;
+}
+
+.search-bar-1 {
+    margin-left: 20px;
+    margin-right: 30px;
+    width: 300px;
+    border-radius: 50px !important;
+    background-color: white;
+}
+
+.search-bar-1 input {
+    padding: 10px 20px;
+    width: 100%;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #ddd;
+    /* Added border for better visibility */
+}
+
+.content-1 {
+    margin-top: 80px;
+    /* Adjusted to match topbar height */
+    display: flex;
+    flex-grow: 1;
+    gap: 20px;
+}
+
+.sidebar-1 {
+    padding-top: 100px;
+    background-color: #e3e9dd;
+    width: 250px;
+    position: fixed;
+    height: calc(100vh - 110px);
+    /* Subtract topbar height */
+    left: 0;
+}
+
+.sidebar-1 ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.sidebar-1 li {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.sidebar-1 li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.sidebar-1 li a:hover {
+    color: #007bff;
+}
+
+.sidebar-1 img {
+    height: 40px;
+    width: 40px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.guides-1 {
+    flex-grow: 1;
+    padding: 20px;
+    height: calc(100vh - 80px);
+    /* Adjusted height */
+    overflow-y: auto;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.guide-card {
+    background-color: #f1f5ef;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    /* Adjusted padding */
+    border-radius: 10px;
+    /* Adjusted width */
+    max-width: 300px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    /* Indicate that the card is clickable */
+}
+
+.guide-card img.guide-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    /* Rounded corners for images */
+}
+
+.guide-card .guide-content {
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+.guide-card-link {
+    text-decoration: none;
+    color: inherit;
+    /* Ensures that the link inherits the color from its parent */
+}
+
+.guide-card-link:hover {
+    color: inherit;
+    /* Optional: keeps text color consistent on hover */
+}
+
+.guide-card-link p {
+    margin: 0;
+    /* Ensure there's no additional margin affecting layout */
+}
+
+.guide-card:hover {
+    background-color: #e3e8dc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.mainpage-1 {
+    display: flex;
+    margin-left: 250px;
+}

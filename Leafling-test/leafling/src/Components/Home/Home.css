@@ -1,0 +1,249 @@
+/* General Page Styling */
+.home-1 {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Topbar Styling */
+.topbar-1 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+.topbar-1 .logo img {
+  height: 40px;
+  margin-right: 15px;
+}
+
+.topbar-1 a {
+  font-weight: bold;
+  margin-right: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+.topbar-1 .icons-1 {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.topbar-1 .icon-item {
+  margin-right: 10px; /* Reduced spacing between icons */
+}
+
+.topbar-1 .icon-item img {
+  height: 24px;
+}
+
+.topbar-1 .search-bar-1 {
+  margin-left: 10px; /* Adjusted spacing from icons */
+  flex: 1; /* Ensures the search bar grows within its container */
+  max-width: 300px; /* Set max-width to prevent overflow */
+}
+
+.topbar-1 .search-bar-1 input {
+  padding: 5px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  outline: none;
+  padding-left: 15px; /* Adjusted to shift placeholder text slightly to the right */
+  width: 100%; /* Ensures the input does not exceed its container's width */
+  box-sizing: border-box; /* Includes padding and border in the width calculation */
+}
+
+/* Sidebar Styling */
+.sidebar-1 {
+  width: 240px; /* Adjusted width */
+  background-color: #28a745; /* Green background */
+  padding: 10px; /* Adjusted padding */
+  border-right: 1px solid #ddd;
+  box-sizing: border-box;
+  color: white;
+  height: calc(100vh - 50px); /* Full height minus topbar */
+  position: fixed; /* Fixed position */
+  top: 50px; /* Positioned below the topbar */
+  bottom: 0; /* Extend to bottom */
+  overflow: hidden; /* No scrolling */
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-1 ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0; /* Remove top margin */
+  flex: 1; /* Make the list grow to fill available space */
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-1 li {
+  margin-bottom: 10px; /* Adjust spacing */
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-1 img {
+  height: 24px;
+  margin-right: 10px;
+}
+
+.sidebar-1 a {
+  text-decoration: none;
+  color: white; /* Adjusted color for contrast */
+  font-weight: bold;
+}
+
+/* Content Styling */
+.content-1 {
+  display: flex;
+  margin: 0 10px;
+  margin-left: 260px; /* Adjusted for sidebar width */
+}
+
+.posts-1 {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Rightbar Styling */
+.rightbar-1 {
+  width: 340px; /* Increased width */
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+  box-sizing: border-box;
+  overflow-y: auto; /* Scrollable */
+  height: calc(100vh - 60px); /* Adjusted height */
+}
+
+/* Adjusted Forumcard Issue */
+.rightbar-1 .forum-card:last-child {
+  margin-bottom: 20px; /* To prevent overflow issue */
+}
+
+/* Create Post Modal Styling */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 400px; /* Adjust width as needed */
+  z-index: 1000;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-content input,
+.modal-content textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.modal-content .submit-button {
+  align-self: center; /* Center the button */
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+/* Post Card Styling */
+.post-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px; /* Adjust spacing between cards */
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.post-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.post-actions {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.action-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.action-button img {
+  height: 24px;
+}
+
+.post-caption {
+  margin-top: 10px;
+}
+
+.post-stats {
+  margin: 10px 0;
+}
+
+.comments-section {
+  margin-top: 20px;
+}
+
+.comments-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.comments-section input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.comments-section button {
+  padding: 10px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}

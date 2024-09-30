@@ -1,0 +1,60 @@
+.bills {
+    font-family: 'Lora', serif;
+    color: #333;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.bills h2 {
+    color: #2c3e50;
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.bill {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.bill h3 {
+    font-size: 24px;
+    color: #27ae60;
+}
+
+.bill p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #34495e;
+}
+
+.bill ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bill li {
+    font-size: 14px;
+    color: #555;
+    margin: 4px 0;
+}
+
+@media (max-width: 600px) {
+    .bills {
+        padding: 10px;
+    }
+
+    .bills h2 {
+        font-size: 28px;
+    }
+
+    .bill h3 {
+        font-size: 20px;
+    }
+}

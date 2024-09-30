@@ -1,0 +1,9 @@
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: repeat(4, auto);
+  gap: 20px;
+  padding: 20px;
+  max-height: 80vh;
+  overflow-y: scroll;
+}

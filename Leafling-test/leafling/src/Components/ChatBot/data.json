@@ -1,0 +1,360 @@
+{
+  "responses": {
+    "marketplace": {
+      "keywords": ["marketplace", "shop", "products"],
+      "question": "What can you tell me about the Marketplace?",
+      "answer": "Sure! You can explore various products in the Marketplace section. We offer a range of plants, gardening tools, and more."
+    },
+    "profile": {
+      "keywords": ["profile", "account"],
+      "question": "What can I do in my Profile?",
+      "answer": "Your Profile is where you can manage your account details, update your preferences, and view your activity."
+    },
+    "notifications": {
+      "keywords": ["notifications", "alerts"],
+      "question": "What are Notifications for?",
+      "answer": "Check your Notifications to stay updated with the latest alerts, messages, and important updates from our app."
+    },
+    "plants": {
+      "keywords": ["plants", "plant types", "types of plants"],
+      "question": "What types of plants do you have?",
+      "answer": "We have a wide variety of plants available! Are you interested in indoor plants, outdoor plants, or something specific?"
+    },
+    "help": {
+      "keywords": ["help", "assistance", "support"],
+      "question": "How can you assist me?",
+      "answer": "I can assist you with navigating the app or provide information about different types of plants. How can I help you today?"
+    },
+    "succulent": {
+      "keywords": ["succulent"],
+      "question": "What can you tell me about succulents?",
+      "answer": "Succulents are hardy plants that store water in their leaves. They are low-maintenance and perfect for busy individuals."
+    },
+    "cactus": {
+      "keywords": ["cactus"],
+      "question": "Tell me about cacti.",
+      "answer": "Cacti are desert plants known for their resilience and unique appearance. They require very little water and thrive in dry conditions."
+    },
+    "herbs": {
+      "keywords": ["herbs"],
+      "question": "What about herbs?",
+      "answer": "Herbs like basil, mint, and rosemary are versatile plants used for cooking and medicinal purposes. They are great for home gardens."
+    },
+    "flower": {
+      "keywords": ["flower", "flowers"],
+      "question": "What types of flowers do you offer?",
+      "answer": "Flowers come in many varieties and colors. Whether you are looking for roses, tulips, or daisies, we have options to brighten up your space."
+    },
+    "vegetable": {
+      "keywords": ["vegetable", "vegetables"],
+      "question": "What vegetables can I grow?",
+      "answer": "Growing your own vegetables is a rewarding experience. Common choices include tomatoes, peppers, and lettuce."
+    },
+    "tree": {
+      "keywords": ["tree", "trees"],
+      "question": "Tell me about trees.",
+      "answer": "Trees provide shade and beauty to your garden. Consider species like oak, maple, or cherry blossoms for your outdoor space."
+    },
+    "indoor": {
+      "keywords": ["indoor plants", "indoor"],
+      "question": "What indoor plants are available?",
+      "answer": "Indoor plants like peace lilies and spider plants can enhance your living space and improve air quality."
+    },
+    "outdoor": {
+      "keywords": ["outdoor plants", "outdoor"],
+      "question": "What about outdoor plants?",
+      "answer": "Outdoor plants include everything from shrubs to flowering perennials. They can transform your garden and attract wildlife."
+    },
+    "care": {
+      "keywords": ["care", "plant care"],
+      "question": "How should I care for my plants?",
+      "answer": "Proper plant care involves watering, sunlight, and soil management. Each plant has specific needs, so be sure to research accordingly."
+    },
+    "pest": {
+      "keywords": ["pest", "pests", "plant pests"],
+      "question": "How can I deal with pests on my plants?",
+      "answer": "To manage pests, identify the type of pest and use appropriate methods such as insecticidal soap or neem oil. Regularly inspect your plants and maintain good hygiene."
+    },
+    "soil": {
+      "keywords": ["soil", "plant soil"],
+      "question": "What type of soil is best for plants?",
+      "answer": "The best soil depends on the type of plant. Generally, well-draining soil enriched with organic matter is ideal for most plants."
+    },
+    "watering": {
+      "keywords": ["watering", "water"],
+      "question": "How often should I water my plants?",
+      "answer": "Watering frequency varies by plant type. Most plants prefer to be watered when the top inch of soil is dry. Avoid overwatering as it can lead to root rot."
+    },
+    "fertilizer": {
+      "keywords": ["fertilizer", "plant food"],
+      "question": "When should I fertilize my plants?",
+      "answer": "Fertilize plants during their growing season (spring and summer) to provide essential nutrients. Follow the recommended guidelines for the specific type of fertilizer."
+    },
+    "seasonal": {
+      "keywords": ["seasonal plants", "seasonal care"],
+      "question": "What seasonal plants should I consider?",
+      "answer": "Seasonal plants vary by climate. In spring, consider annuals like petunias; in fall, think about chrysanthemums or ornamental grasses."
+    },
+    "compost": {
+      "keywords": ["compost", "composting"],
+      "question": "How can I start composting?",
+      "answer": "To start composting, collect organic waste like vegetable scraps and yard clippings. Use a compost bin or pile, and regularly turn it to aerate. Composting enriches soil and reduces waste."
+    },
+    "organic": {
+      "keywords": ["organic", "organic gardening"],
+      "question": "What is organic gardening?",
+      "answer": "Organic gardening involves growing plants without synthetic pesticides or fertilizers. It focuses on maintaining soil health and promoting biodiversity."
+    },
+    "hydroponics": {
+      "keywords": ["hydroponics", "hydroponic gardening"],
+      "question": "What is hydroponics?",
+      "answer": "Hydroponics is a method of growing plants without soil, using a nutrient-rich water solution. It allows for controlled growing conditions and can be used indoors or in greenhouses."
+    },
+    "aeroponics": {
+      "keywords": ["aeroponics", "aeroponic gardening"],
+      "question": "What is aeroponics?",
+      "answer": "Aeroponics is a system where plant roots are suspended in the air and misted with a nutrient solution. It provides high oxygen levels to roots and is efficient for fast growth."
+    },
+    "permaculture": {
+      "keywords": ["permaculture", "permaculture design"],
+      "question": "What is permaculture?",
+      "answer": "Permaculture is a design philosophy focused on creating sustainable and self-sufficient ecosystems. It integrates land management with ecological principles to mimic natural systems."
+    },
+    "landscaping": {
+      "keywords": ["landscaping", "garden design"],
+      "question": "Can you help with landscaping ideas?",
+      "answer": "Sure! Landscaping ideas include creating garden beds, adding pathways, incorporating water features, and selecting plants that suit your climate and aesthetic preferences."
+    },
+    "mulch": {
+      "keywords": ["mulch", "mulching"],
+      "question": "What is mulch and why should I use it?",
+      "answer": "Mulch is a layer of material placed on the soil surface to retain moisture, suppress weeds, and improve soil health. It can be organic (e.g., wood chips) or inorganic (e.g., gravel)."
+    },
+    "pruning": {
+      "keywords": ["pruning", "plant pruning"],
+      "question": "How should I prune my plants?",
+      "answer": "Pruning involves removing dead or overgrown branches to promote healthy growth and shape the plant. Use clean, sharp tools and follow specific guidelines for each plant type."
+    },
+    "propagation": {
+      "keywords": ["propagation", "plant propagation"],
+      "question": "What is plant propagation?",
+      "answer": "Plant propagation is the process of creating new plants from existing ones. Methods include seeds, cuttings, division, and layering."
+    },
+    "transplanting": {
+      "keywords": ["transplanting", "plant transplant"],
+      "question": "When and how should I transplant my plants?",
+      "answer": "Transplanting should be done when plants outgrow their containers or need to be moved to a new location. Gently remove the plant, prepare the new site, and replant it at the same depth."
+    },
+    "watering can": {
+      "keywords": ["watering can", "watering tools"],
+      "question": "What types of watering cans are best?",
+      "answer": "Watering cans come in various sizes and designs. Choose one with a comfortable handle and a spout that suits your watering needs, whether for small potted plants or larger garden areas."
+    },
+    "greenhouse": {
+      "keywords": ["greenhouse", "greenhouse gardening"],
+      "question": "What is greenhouse gardening?",
+      "answer": "Greenhouse gardening involves growing plants in a controlled environment within a greenhouse. It allows for year-round cultivation and protection from extreme weather conditions."
+    },
+    "sustainable": {
+      "keywords": ["sustainable gardening", "sustainable practices"],
+      "question": "What are sustainable gardening practices?",
+      "answer": "Sustainable gardening practices include using organic methods, conserving water, reducing waste, and supporting local ecosystems. It aims to minimize environmental impact and promote long-term health."
+    },
+    "rainwater": {
+      "keywords": ["rainwater harvesting", "rainwater collection"],
+      "question": "How can I use rainwater for gardening?",
+      "answer": "Rainwater harvesting involves collecting and storing rainwater for use in gardening. Use barrels or other containers to collect runoff from roofs, and ensure you use clean, non-toxic materials."
+    },
+    "pH": {
+      "keywords": ["soil pH", "pH level"],
+      "question": "How important is soil pH?",
+      "answer": "Soil pH affects nutrient availability to plants. Most plants thrive in slightly acidic to neutral soil (pH 6-7). Test your soil regularly and adjust pH as needed using lime or sulfur."
+    },
+    "disease": {
+      "keywords": ["plant diseases", "plant illness"],
+      "question": "How can I identify and treat plant diseases?",
+      "answer": "Identify plant diseases by observing symptoms like discoloration or wilting. Treatment varies by disease and may include removing affected parts, using fungicides, or improving plant care practices."
+    },
+    "pests": {
+      "keywords": ["pest control", "insects", "plant pests"],
+      "question": "What are common pests and how do I control them?",
+      "answer": "Common pests include aphids, spider mites, and whiteflies. Control methods include using insecticidal soap, neem oil, or introducing beneficial insects like ladybugs."
+    },
+    "planting": {
+      "keywords": ["planting", "planting tips"],
+      "question": "What are some tips for planting?",
+      "answer": "When planting, choose the right location, prepare the soil, plant at the correct depth, and water thoroughly. Follow specific guidelines for each type of plant for best results."
+    },
+    "seeds": {
+      "keywords": ["seeds", "plant seeds"],
+      "question": "How do I start plants from seeds?",
+      "answer": "Starting plants from seeds involves selecting quality seeds, preparing seed trays or pots, planting seeds at the recommended depth, and providing appropriate light and moisture."
+    },
+    "germination": {
+      "keywords": ["germination", "seed germination"],
+      "question": "What is seed germination?",
+      "answer": "Germination is the process by which a seed develops into a new plant. It requires the right conditions of temperature, moisture, and light to trigger growth."
+    },
+    "tools": {
+      "keywords": ["gardening tools", "tools"],
+      "question": "What are essential gardening tools?",
+      "answer": "Essential gardening tools include trowels, pruners, watering cans, and gloves. These tools help with planting, pruning, and maintaining your garden."
+    },
+    "container": {
+      "keywords": ["container gardening", "containers"],
+      "question": "What is container gardening?",
+      "answer": "Container gardening involves growing plants in pots or other containers. It's ideal for small spaces and allows for flexibility in plant placement."
+    },
+    "mulching": {
+      "keywords": ["mulching", "benefits of mulch"],
+      "question": "What are the benefits of mulching?",
+      "answer": "Mulching helps retain soil moisture, suppress weeds, and regulate soil temperature. It also adds organic matter to the soil as it decomposes."
+    },
+    "weather": {
+      "keywords": ["weather", "weather effects on plants"],
+      "question": "How does weather affect plant growth?",
+      "answer": "Weather impacts plant growth through temperature extremes, rainfall, and sunlight. Adjust care routines based on weather conditions to support healthy plant development."
+    },
+    "maintenance": {
+      "keywords": ["plant maintenance", "garden maintenance"],
+      "question": "What maintenance is needed for a garden?",
+      "answer": "Garden maintenance includes regular watering, weeding, pruning, fertilizing, and pest control. Regular attention ensures healthy plants and a beautiful garden."
+    },
+    "winter": {
+      "keywords": ["winter care", "winter plants"],
+      "question": "How should I care for my plants in winter?",
+      "answer": "In winter, reduce watering and protect plants from frost. Consider using mulch or covering plants to insulate them against cold temperatures."
+    },
+    "spring": {
+      "keywords": ["spring gardening", "spring plants"],
+      "question": "What should I do for my garden in spring?",
+      "answer": "Spring is a great time to prepare the garden by planting new seeds, cleaning up debris, and fertilizing soil. It's also the start of the growing season for many plants."
+    },
+    "summer": {
+      "keywords": ["summer gardening", "summer care"],
+      "question": "How should I care for my garden in summer?",
+      "answer": "In summer, ensure plants receive enough water, mulch to retain moisture, and provide shade if needed. Regularly check for pests and diseases."
+    },
+    "fall": {
+      "keywords": ["fall gardening", "fall care"],
+      "question": "What should I do for my garden in fall?",
+      "answer": "In fall, prepare your garden for winter by cleaning up leaves, planting fall crops, and adding compost. Mulching helps protect plants from cold temperatures."
+    },
+    "soil-test": {
+      "keywords": ["soil test", "testing soil"],
+      "question": "How can I test my soil?",
+      "answer": "Soil tests can be done using a home kit or through a professional lab. Tests provide information on soil pH and nutrient levels, helping you make informed decisions about soil amendments."
+    },
+    "invasive": {
+      "keywords": ["invasive plants", "invasive species"],
+      "question": "What are invasive plants and how can I manage them?",
+      "answer": "Invasive plants spread aggressively and outcompete native species. Manage them by removing them from your garden, using barriers, and selecting non-invasive alternatives."
+    },
+    "plant-disease": {
+      "keywords": ["plant diseases", "disease symptoms"],
+      "question": "What are common plant diseases?",
+      "answer": "Common plant diseases include powdery mildew, blight, and rust. Symptoms vary but may include spots, wilting, or mold. Proper diagnosis and treatment are essential."
+    },
+    "garden-design": {
+      "keywords": ["garden design", "design tips"],
+      "question": "How can I design my garden?",
+      "answer": "Design your garden by considering plant layout, color schemes, and functionality. Plan pathways, seating areas, and plant groupings to create a cohesive and attractive space."
+    },
+    "irrigation": {
+      "keywords": ["irrigation", "watering systems"],
+      "question": "What are irrigation options for gardens?",
+      "answer": "Irrigation options include drip systems, soaker hoses, and sprinkler systems. Choose one based on garden size, plant needs, and water availability."
+    },
+    "organic-fertilizer": {
+      "keywords": ["organic fertilizer", "natural fertilizers"],
+      "question": "What are organic fertilizers?",
+      "answer": "Organic fertilizers are made from natural sources like compost, manure, or bone meal. They improve soil health and provide slow-release nutrients for plants."
+    },
+    "garden-tools": {
+      "keywords": ["garden tools", "essential tools"],
+      "question": "What tools are essential for gardening?",
+      "answer": "Essential gardening tools include trowels, pruners, hoes, and gloves. These tools help with planting, weeding, and general garden maintenance."
+    },
+    "drought-tolerant": {
+      "keywords": ["drought-tolerant plants", "drought plants"],
+      "question": "What are drought-tolerant plants?",
+      "answer": "Drought-tolerant plants are adapted to survive with minimal water. Examples include succulents, lavender, and sedum. They are ideal for dry or arid climates."
+    },
+    "perennial": {
+      "keywords": ["perennial plants", "perennials"],
+      "question": "What are perennial plants?",
+      "answer": "Perennial plants live for more than two years and return each growing season. They include flowers like lilies and shrubs like hydrangeas."
+    },
+    "annual": {
+      "keywords": ["annual plants", "annuals"],
+      "question": "What are annual plants?",
+      "answer": "Annual plants complete their life cycle in one growing season. Examples include marigolds and petunias. They need to be replanted each year."
+    },
+    "composting": {
+      "keywords": ["composting", "compost"],
+      "question": "What is composting and how do I start?",
+      "answer": "Composting involves decomposing organic waste to create nutrient-rich soil. Start by collecting kitchen scraps and yard waste, then use a compost bin or pile to break down materials."
+    },
+    "fertilization": {
+      "keywords": ["fertilization", "plant nutrients"],
+      "question": "How often should I fertilize my plants?",
+      "answer": "Fertilize plants based on their specific needs and growth stage. Generally, apply fertilizer every 4-6 weeks during the growing season."
+    },
+    "edible-plants": {
+      "keywords": ["edible plants", "edible gardening"],
+      "question": "What are some easy edible plants to grow?",
+      "answer": "Easy edible plants include herbs like basil and mint, as well as vegetables like lettuce and tomatoes. They are great for beginner gardeners."
+    },
+    "shade-plants": {
+      "keywords": ["shade plants", "plants for shade"],
+      "question": "What are good plants for shady areas?",
+      "answer": "Plants for shady areas include hostas, ferns, and astilbes. These plants thrive with limited sunlight and can add variety to shaded garden spaces."
+    },
+      "herbicides": {
+        "keywords": ["herbicides", "weed control"],
+        "question": "What are herbicides and how should I use them?",
+        "answer": "Herbicides are chemicals used to control or eliminate weeds. Use them carefully according to the instructions to avoid harming desired plants and the environment."
+      },
+      "soil-erosion": {
+        "keywords": ["soil erosion", "preventing erosion"],
+        "question": "How can I prevent soil erosion in my garden?",
+        "answer": "Prevent soil erosion by planting ground cover, using erosion control fabrics, and implementing terracing or contouring techniques to manage water flow."
+      },
+      "wildlife": {
+        "keywords": ["wildlife", "garden wildlife"],
+        "question": "How can I attract wildlife to my garden?",
+        "answer": "Attract wildlife by planting native species, providing water sources, and creating habitats like birdhouses or bee hotels. This supports local ecosystems and adds diversity to your garden."
+      },
+      "organic-pesticides": {
+        "keywords": ["organic pesticides", "natural pest control"],
+        "question": "What are organic pesticides?",
+        "answer": "Organic pesticides are derived from natural sources and are used to control pests without synthetic chemicals. Examples include neem oil and insecticidal soap."
+      },
+      "grafting": {
+        "keywords": ["grafting", "plant grafting"],
+        "question": "What is grafting and how is it used?",
+        "answer": "Grafting is a technique of joining two plant parts to grow as one. It is used to propagate plants, improve fruit quality, or repair damaged trees."
+      },
+      "pollinators": {
+        "keywords": ["pollinators", "attracting pollinators"],
+        "question": "How can I attract pollinators to my garden?",
+        "answer": "Attract pollinators by planting flowering plants that provide nectar and pollen, avoiding pesticide use, and creating a diverse garden with different bloom times."
+      },
+      "companion-plants": {
+        "keywords": ["companion planting", "plant companions"],
+        "question": "What are companion plants?",
+        "answer": "Companion plants are species that benefit each other when grown together. They can improve growth, repel pests, or enhance flavor. Examples include planting basil with tomatoes."
+      },
+      "soil-structure": {
+        "keywords": ["soil structure", "soil texture"],
+        "question": "How can I improve soil structure?",
+        "answer": "Improve soil structure by adding organic matter, such as compost, and avoiding excessive tilling. Good soil structure enhances drainage, aeration, and root growth."
+      },
+      "climate": {
+        "keywords": ["climate", "gardening climate"],
+        "question": "How does climate affect gardening?",
+        "answer": "Climate affects plant growth by influencing temperature, rainfall, and sunlight. Choose plants that are suited to your local climate to ensure successful growth."
+      }
+    
+  }
+}
